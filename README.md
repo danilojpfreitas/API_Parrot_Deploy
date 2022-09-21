@@ -1,5 +1,4 @@
-# Parrot - Hands On 04
-
+# API Parrot - Deploy
 <p align="center">
   <img src="./docs/logo.png" width="30%">
 </p>
@@ -13,11 +12,8 @@ No Hands On 04 - Parrot, foi proposto a criação de uma rede social a Parrot. A
 
 ---
 ## Como usar a API
-1. Após clonar o repositório, executar o comando `npm install` ou `yarn install`
-2. Criar um arquivo `.env` apartir do arquivo `.env-model` e alterar as credenciais do banco de dados
-3. Criar banco de dados sem tabelas no mysql com o comando: `create database nomeDaDataBase`
-4. Após configurado, realizar as migrations com os comandos: `npm run migration:generate` e em seguida `npm run migration:run`
-5. Inicializar o banco de dados com `npm run dev`
+
+A API encontra-se hospedada no heroku: https://apiparrot.herokuapp.com/
   
 ---
 ## Corpo das requisições
